@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	int n, r, rev = 0;
-	int m=n;
+	int m;
 	
 	cout<<"Enter the number "<<endl;
 	cin>>n;
