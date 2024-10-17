@@ -12,6 +12,8 @@
       "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
+      "logging": {
+          "moduleLoad": false},
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
