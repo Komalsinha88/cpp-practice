@@ -3,24 +3,28 @@ using namespace std;
 
 int main()
 {
-	int A[10], i, key, n=10;
-	cout<<"Enter numbers "<<endl;
-	
-	for(i=0; i<n; i++)
+ 	int A[10],n=10;
+	int key;
+	cout<<"Enter Numbers";
+	    
+	for(int i=0;i<n;i++)
 	{
 		cin>>A[i];
 	}
-	cout<<"Enter key ";
+	cout<<"Enter Key";
 	cin>>key;
-	
-	for(i=0; i<n; i++)
+	    
+	for(int i=0;i<n;i++)
 	{
 		if(key==A[i])
 		{
-			cout<<"Found at "<<i;
+			cout<<"Found at"<<i<<endl;
 			return 0;
 		}
 	}
-	cout<<"Not found ";
+	    
+	cout<<"Not Found"<<endl;
+	
 	return 0;
-}
+	    
+}		
