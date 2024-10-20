@@ -14,7 +14,7 @@ int main(){
     int f[n];
     int visited= -1;
     for(int i=0; i<n; i++){
-        int count=0;
+        int count=1;
         for(int j=i+1; j<n; j++){
             if(arr[i]==arr[j]){
                 count++;
@@ -22,7 +22,7 @@ int main(){
             }
         }
         if(f[i]!=visited){
-            f[i]=visited;
+            f[i]=count;
         }
     }
     cout<<"Frequency of elements are "<<endl;
